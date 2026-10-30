@@ -14,7 +14,8 @@ La versión más reciente está en [Releases](../../releases/latest), como `Prot
 ## Requisitos
 
 - Android 7.0 o posterior.
-- Cámara, o una foto del diagrama guardada en el teléfono.
+- Cámara, o una foto del diagrama guardada en el teléfono. También se puede armar un circuito sin
+  foto, sobre un lienzo en blanco.
 - Conexión a internet solo para la cuenta, la copia en la nube y compartir circuitos. Sin cuenta, la
   aplicación funciona sin conexión.
 
@@ -25,12 +26,16 @@ La versión más reciente está en [Releases](../../releases/latest), como `Prot
    porque la aplicación no se distribuye por Google Play. Por el mismo motivo puede aparecer un aviso
    de Google Play Protect.
 
+Para actualizar desde una versión anterior, se instala el archivo nuevo encima, sin desinstalar: los
+circuitos guardados se conservan.
+
 ## Funciones
 
 - Detección de diez tipos de componentes en la foto de un diagrama dibujado a mano.
-- Trazado de las conexiones sobre el diagrama.
+- Trazado de las conexiones sobre el diagrama, o armado del circuito sobre un lienzo en blanco.
 - Montaje en protoboard en 2D, esquemático y vista 3D.
 - Guía de armado paso a paso, dentro de la aplicación y en PDF.
+- Tutorial «Primeros pasos» y una ayuda en cada pantalla.
 - Cuenta opcional, con copia de los circuitos en la nube.
 - Compartir circuitos por código o QR.
 
@@ -39,9 +44,9 @@ La versión más reciente está en [Releases](../../releases/latest), como `Prot
 - La aplicación reconoce componentes, no conexiones: las conexiones las traza el usuario.
 - No distingue un transistor NPN de uno PNP; el tipo se elige en el editor. El orden de las patas
   puede variar según el fabricante y conviene comprobarlo en la hoja de datos.
-- **Interruptores:** se reconocen en el diagrama, pero su colocación en la protoboard todavía no es
-  correcta. La aplicación los trata como un componente de dos patas en columnas contiguas, y un
-  pulsador de cuatro patas no se monta así. Esa parte del montaje se revisa a mano.
+- **Interruptores:** se colocan siempre como un pulsador táctil de cuatro patas que cruza el canal
+  central. Un interruptor de dos patas o uno deslizante se monta adaptando esa colocación, como
+  explica su ficha en la biblioteca.
 - No hay recuperación de contraseña desde la aplicación.
 
 ## Licencias
